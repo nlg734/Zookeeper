@@ -122,3 +122,9 @@ It seems there will be more rabbits soon!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
+while True:
+    choice = input("Which habitat # do you need?")
+    if choice == "exit":
+        print("See you!")
+        break
+    print(animals[int(choice)])
